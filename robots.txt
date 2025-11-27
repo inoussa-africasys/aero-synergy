@@ -1,0 +1,33 @@
+# robots.txt for Aero Synergy
+
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /logs/
+Disallow: /contact_handler.php
+
+# Sitemap
+Sitemap: https://aero-synergy.com/sitemap.xml
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Allow good bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl delay for other bots
+Crawl-delay: 10

@@ -1,0 +1,34 @@
+# Dépendances PHP
+/vendor/
+composer.lock
+
+# Logs
+logs/*.log
+*.log
+
+# Configuration locale (peut contenir des mots de passe)
+config_mail.php
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Node modules (si vous utilisez npm)
+node_modules/
+
+# Environnement
+.env
+.env.local
+.env.*.local
