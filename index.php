@@ -145,18 +145,18 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Achat & Vente -->
                 <div
-                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
                         <img src="resource/images/achat vente (1).png" alt="Achat & Vente"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <div class="p-6">
+                    <div class="p-6 flex flex-col flex-grow">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Achat & Vente</h3>
                         <p class="text-gray-600 leading-relaxed mb-4">
                             Nous vous accompagnons dans l'achat et la vente d'aéronefs avec expertise et transparence.
                         </p>
-                        <a href="#"
-                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                        <a href="services/achat-vente.php"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link mt-auto">
                             <span>En savoir plus</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor"
@@ -170,18 +170,18 @@
 
                 <!-- Affrètement Privé -->
                 <div
-                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
                         <img src="resource/images/affretement (1).png" alt="Affrètement Privé"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <div class="p-6">
+                    <div class="p-6 flex flex-col flex-grow">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Affrètement Privé</h3>
-                        <p class="text-gray-600 leading-relaxed">
+                        <p class="text-gray-600 leading-relaxed mb-4">
                             Voyagez en toute liberté avec nos services d'affrètement privé personnalisés.
                         </p>
-                        <a href="#"
-                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                        <a href="services/affretement-prive.php"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link mt-auto">
                             <span>En savoir plus</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor"
@@ -195,18 +195,18 @@
 
                 <!-- Affrètement Commercial -->
                 <div
-                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
                         <img src="resource/images/image (2).png" alt="Affrètement Commercial"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <div class="p-6">
+                    <div class="p-6 flex flex-col flex-grow">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Affrètement Commercial</h3>
-                        <p class="text-gray-600 leading-relaxed">
+                        <p class="text-gray-600 leading-relaxed mb-4">
                             Solutions pour événements, séminaires, transport gouvernemental et voyages de groupe.
                         </p>
-                        <a href="#"
-                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                        <a href="services/affretement-commercial.php"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link mt-auto">
                             <span>En savoir plus</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor"
@@ -220,18 +220,18 @@
 
                 <!-- Affrètement Cargo -->
                 <div
-                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
                         <img src="resource/images/image (3).png" alt="Affrètement Cargo"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <div class="p-6">
+                    <div class="p-6 flex flex-col flex-grow">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Affrètement Cargo</h3>
-                        <p class="text-gray-600 leading-relaxed">
+                        <p class="text-gray-600 leading-relaxed mb-4">
                             Transport de fret aérien reconnu pour son efficacité et sa réactivité.
                         </p>
-                        <a href="#"
-                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                        <a href="services/affretement-cargo.php"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link mt-auto">
                             <span>En savoir plus</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor"
@@ -245,18 +245,18 @@
 
                 <!-- Location d'aéronefs -->
                 <div
-                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
                         <img src="resource/images/image (4).png" alt="Location"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <div class="p-6">
+                    <div class="p-6 flex flex-col flex-grow">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Location d'aéronefs</h3>
-                        <p class="text-gray-600 leading-relaxed">
+                        <p class="text-gray-600 leading-relaxed mb-4">
                             Services de location d'aéronefs flexibles adaptés à vos besoins spécifiques.
                         </p>
-                        <a href="#"
-                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                        <a href="services/location.php"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link mt-auto">
                             <span>En savoir plus</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor"
@@ -270,18 +270,18 @@
 
                 <!-- Evacuation Sanitaire -->
                 <div
-                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                    class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
                         <img src="resource/images/image (5).png" alt="Evacuation Sanitaire"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <div class="p-6">
+                    <div class="p-6 flex flex-col flex-grow">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Evacuation Sanitaire (Medevac)</h3>
-                        <p class="text-gray-600 leading-relaxed">
+                        <p class="text-gray-600 leading-relaxed mb-4">
                             Services d'évacuation médicale d'urgence disponibles 24/7.
                         </p>
-                        <a href="#"
-                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                        <a href="services/medevac.php"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link mt-auto">
                             <span>En savoir plus</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                                 stroke="currentColor"
@@ -337,7 +337,7 @@
                 <!-- Left: Text Content -->
                 <div class="relative z-10">
                     <h2 class="text-4xl md:text-5xl lg:text-6xl font-light text-white mb-10 leading-tight font-bold">
-                        Pret pour faire decoller votre projet
+                        Prêt à faire décoller votre projet
                     </h2>
                     <a href="contact.php"
                         class="inline-flex items-center gap-3 bg-white text-[#2b7a9e] px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105">

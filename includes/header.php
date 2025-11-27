@@ -1,25 +1,25 @@
 <!-- Navigation Header -->
-<header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-md">
+<header class="fixed top-0 left-0 right-0 z-50 bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-400 overflow-hidden backdrop-blur-sm shadow-md">
     <nav class="container mx-auto px-4">
         <div class="flex items-center justify-between h-20">
             <!-- Logo -->
             <a href="index.php" class="flex items-center space-x-3 group">
                 <img src="resource/images/LOGO.png" alt="Aero Synergy Logo" class="h-12 w-auto transition-transform group-hover:scale-105">
-                <span class="text-xl font-bold text-gray-900 hidden sm:block">Aero Synergy</span>
+                <span class="text-xl font-bold text-gray-100 hidden sm:block">Aero Synergy</span>
             </a>
 
             <!-- Desktop Navigation -->
-            <div class="hidden md:flex items-center space-x-8">
-                <a href="index.php" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors">
+            <div class="hidden md:flex items-center space-x-8 ">
+                <a href="/index.php" class="nav-link text-gray-100 hover:text-blue-600 font-medium transition-colors">
                     Accueil
                 </a>
-                <a href="index.php#services" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                <a href="/services.php" class="nav-link text-gray-100 hover:text-blue-600 font-medium transition-colors">
                     Services
                 </a>
-                <a href="contact.php" class="nav-link text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                <a href="/contact.php" class="nav-link text-gray-100 hover:text-blue-600 font-medium transition-colors">
                     Contact
                 </a>
-                <a href="tel:+33766355564" class="flex items-center space-x-2 text-blue-600 hover:text-blue-800 font-semibold transition-colors">
+                <a href="tel:+33766355564" class="flex items-center space-x-2 text-blue-100 hover:text-blue-300 font-semibold transition-colors">
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                     </svg>

@@ -156,7 +156,7 @@
             </div>
 
             <!-- Legal Links -->
-            <div class="mt-6 text-center">
+            <!-- <div class="mt-6 text-center">
                 <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
                     <a href="#" class="hover:text-white transition-colors">Mentions Légales</a>
                     <span>|</span>
@@ -166,7 +166,7 @@
                     <span>|</span>
                     <a href="#" class="hover:text-white transition-colors">Plan du Site</a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
