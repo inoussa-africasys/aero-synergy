@@ -75,8 +75,8 @@
                 <div class="grid md:grid-cols-2 gap-8 mb-12">
                     <div class="bg-white rounded-xl shadow-lg p-8">
                         <div class="flex items-start space-x-4">
-                            <div class="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                                <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                 </svg>
                             </div>
@@ -89,8 +89,8 @@
 
                     <div class="bg-white rounded-xl shadow-lg p-8">
                         <div class="flex items-start space-x-4">
-                            <div class="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                                <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                 </svg>
                             </div>
@@ -103,8 +103,8 @@
 
                     <div class="bg-white rounded-xl shadow-lg p-8">
                         <div class="flex items-start space-x-4">
-                            <div class="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                                <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                 </svg>
                             </div>
@@ -117,8 +117,8 @@
 
                     <div class="bg-white rounded-xl shadow-lg p-8">
                         <div class="flex items-start space-x-4">
-                            <div class="flex-shrink-0 w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                                <svg class="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <div class="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+                                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                                 </svg>
                             </div>
@@ -130,12 +130,12 @@
                     </div>
                 </div>
 
-                <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-xl p-8 border-l-4 border-orange-600">
+                <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl p-8 border-l-4 border-blue-600">
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Nous localisons les pièces rares, critiques ou difficiles à obtenir :</h3>
                     <div class="grid md:grid-cols-2 gap-4">
                         <ul class="space-y-2">
                             <li class="flex items-center space-x-2">
-                                <span class="text-orange-600">✓</span>
+                                <span class="text-blue-600">✓</span>
                                 <span>Freins, roues, pneus</span>
                             </li>
                             <li class="flex items-center space-x-2">
@@ -143,29 +143,29 @@
                                 <span>Éléments avioniques</span>
                             </li>
                             <li class="flex items-center space-x-2">
-                                <span class="text-orange-600">✓</span>
+                                <span class="text-blue-600">✓</span>
                                 <span>Radômes, trains d'atterrissage</span>
                             </li>
                             <li class="flex items-center space-x-2">
-                                <span class="text-orange-600">✓</span>
+                                <span class="text-blue-600">✓</span>
                                 <span>Accessoires moteurs, LRU</span>
                             </li>
                         </ul>
                         <ul class="space-y-2">
                             <li class="flex items-center space-x-2">
-                                <span class="text-orange-600">✓</span>
+                                <span class="text-blue-600">✓</span>
                                 <span>Systèmes hydrauliques</span>
                             </li>
                             <li class="flex items-center space-x-2">
-                                <span class="text-orange-600">✓</span>
+                                <span class="text-blue-600">✓</span>
                                 <span>Équipements cabine (galleys, sièges)</span>
                             </li>
                             <li class="flex items-center space-x-2">
-                                <span class="text-orange-600">✓</span>
+                                <span class="text-blue-600">✓</span>
                                 <span>Pièces structurelles et fuselage</span>
                             </li>
                             <li class="flex items-center space-x-2">
-                                <span class="text-orange-600">✓</span>
+                                <span class="text-blue-600">✓</span>
                                 <span>Modules électroniques et instruments</span>
                             </li>
                         </ul>
@@ -179,9 +179,9 @@
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
-                <div class="bg-red-50 border-l-4 border-red-600 rounded-r-xl p-8 md:p-12">
+                <div class="bg-blue-50 border-l-4 border-blue-600 rounded-r-xl p-8 md:p-12">
                     <div class="flex items-center space-x-4 mb-6">
-                        <div class="flex-shrink-0 w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center">
+                        <div class="flex-shrink-0 w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center">
                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                             </svg>
@@ -197,25 +197,25 @@
 
                     <div class="grid md:grid-cols-2 gap-4">
                         <div class="flex items-center space-x-3">
-                            <svg class="w-6 h-6 text-red-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
                             <span class="text-gray-700">Répond 24/7</span>
                         </div>
                         <div class="flex items-center space-x-3">
-                            <svg class="w-6 h-6 text-red-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
                             <span class="text-gray-700">Accède immédiatement aux stocks mondiaux</span>
                         </div>
                         <div class="flex items-center space-x-3">
-                            <svg class="w-6 h-6 text-red-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
                             <span class="text-gray-700">Active un transport Express / Hand-carry</span>
                         </div>
                         <div class="flex items-center space-x-3">
-                            <svg class="w-6 h-6 text-red-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
                             <span class="text-gray-700">Organise le dédouanement accéléré</span>
@@ -231,7 +231,7 @@
     </section>
 
     <!-- Types de pièces Section -->
-    <section class="py-20 bg-gradient-to-br from-gray-50 to-orange-50">
+    <section class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
         <div class="container mx-auto px-4">
             <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Types de pièces disponibles</h2>
 
@@ -351,19 +351,19 @@
                     <div>
                         <h3 class="text-2xl font-bold text-gray-900 mb-6">Options de transport</h3>
                         <div class="space-y-4">
-                            <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-lg p-4">
+                            <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-4">
                                 <h4 class="font-bold text-gray-900 mb-2">DHL Express / FedEx Priority / UPS</h4>
                                 <p class="text-sm text-gray-600">Livraison rapide en 24-48h</p>
                             </div>
-                            <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-lg p-4">
+                            <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-4">
                                 <h4 class="font-bold text-gray-900 mb-2">Hand-carry via un agent dédié</h4>
                                 <p class="text-sm text-gray-600">Pour les situations AOG critiques</p>
                             </div>
-                            <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-lg p-4">
+                            <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-4">
                                 <h4 class="font-bold text-gray-900 mb-2">Transport avion cargo</h4>
                                 <p class="text-sm text-gray-600">Sur lignes régulières pour pièces volumineuses</p>
                             </div>
-                            <div class="bg-gradient-to-r from-orange-50 to-red-50 rounded-lg p-4">
+                            <div class="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-4">
                                 <h4 class="font-bold text-gray-900 mb-2">Livraison directe</h4>
                                 <p class="text-sm text-gray-600">En hangar ou à l'aéroport</p>
                             </div>
@@ -375,15 +375,15 @@
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Nous prenons en charge :</h3>
                     <div class="grid md:grid-cols-3 gap-4">
                         <div class="flex items-center space-x-2">
-                            <span class="text-orange-600">✓</span>
+                            <span class="text-blue-600">✓</span>
                             <span>Les formalités douanières</span>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <span class="text-orange-600">✓</span>
+                            <span class="text-blue-600">✓</span>
                             <span>Les déclarations export/import</span>
                         </div>
                         <div class="flex items-center space-x-2">
-                            <span class="text-orange-600">✓</span>
+                            <span class="text-blue-600">✓</span>
                             <span>L'assurance transport</span>
                         </div>
                     </div>
@@ -428,13 +428,13 @@
     </section>
 
     <!-- Pourquoi nous choisir Section -->
-    <section class="py-20 bg-gradient-to-br from-white to-orange-50">
+    <section class="py-20 bg-gradient-to-br from-white to-blue-50">
         <div class="container mx-auto px-4">
             <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Pourquoi choisir Aero-Synergy pour vos pièces ?</h2>
 
             <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
                 <div class="flex items-start space-x-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
                         ✓
                     </div>
                     <div>
@@ -444,7 +444,7 @@
                 </div>
 
                 <div class="flex items-start space-x-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
                         ✓
                     </div>
                     <div>
@@ -454,7 +454,7 @@
                 </div>
 
                 <div class="flex items-start space-x-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
                         ✓
                     </div>
                     <div>
@@ -464,7 +464,7 @@
                 </div>
 
                 <div class="flex items-start space-x-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
                         ✓
                     </div>
                     <div>
@@ -474,7 +474,7 @@
                 </div>
 
                 <div class="flex items-start space-x-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
                         ✓
                     </div>
                     <div>
@@ -484,7 +484,7 @@
                 </div>
 
                 <div class="flex items-start space-x-4">
-                    <div class="flex-shrink-0 w-12 h-12 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">
+                    <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
                         ✓
                     </div>
                     <div>
@@ -497,7 +497,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-br from-orange-600 via-red-500 to-orange-400">
+    <section class="py-20 bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-400">
         <div class="container mx-auto px-4 text-center">
             <h2 class="text-4xl md:text-5xl font-bold text-white mb-8">
                 Besoin d'une pièce maintenant ?
@@ -506,7 +506,7 @@
                 Aero-Synergy localise votre pièce en quelques minutes et peut la faire expédier immédiatement
             </p>
             <a href="../contact.php"
-                class="inline-flex items-center gap-3 bg-white text-orange-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105">
+                class="inline-flex items-center gap-3 bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105">
                 <span>Demander une pièce</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
                     stroke="currentColor" class="w-5 h-5">

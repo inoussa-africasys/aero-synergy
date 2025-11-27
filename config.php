@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Configuration File for Aero Synergy
  */
@@ -25,11 +26,12 @@ define('LINKEDIN_URL', '#');
 define('INSTAGRAM_URL', '#');
 
 // Email Configuration
-define('SMTP_HOST', 'smtp.example.com');
-define('SMTP_PORT', 587);
-define('SMTP_USERNAME', 'contact@aero-synergy.com');
-define('SMTP_PASSWORD', ''); // Add your password
-define('SMTP_ENCRYPTION', 'tls');
+// Email Configuration (MailDev)
+define('SMTP_HOST', '127.0.0.1');
+define('SMTP_PORT', 1025);
+define('SMTP_USERNAME', '');
+define('SMTP_PASSWORD', '');
+define('SMTP_ENCRYPTION', ''); // No encryption for MailDev
 
 // Database Configuration (if needed in future)
 define('DB_HOST', 'localhost');
@@ -138,7 +140,8 @@ $business_hours = [
 /**
  * Sanitize input data
  */
-function sanitize($data) {
+function sanitize($data)
+{
     $data = trim($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
@@ -148,14 +151,16 @@ function sanitize($data) {
 /**
  * Validate email
  */
-function validate_email($email) {
+function validate_email($email)
+{
     return filter_var($email, FILTER_VALIDATE_EMAIL);
 }
 
 /**
  * Generate CSRF token
  */
-function generate_csrf_token() {
+function generate_csrf_token()
+{
     if (session_status() === PHP_SESSION_NONE) {
         session_start();
     }
@@ -168,7 +173,8 @@ function generate_csrf_token() {
 /**
  * Verify CSRF token
  */
-function verify_csrf_token($token) {
+function verify_csrf_token($token)
+{
     if (session_status() === PHP_SESSION_NONE) {
         session_start();
     }
@@ -178,7 +184,8 @@ function verify_csrf_token($token) {
 /**
  * Log message
  */
-function log_message($message, $type = 'info') {
+function log_message($message, $type = 'info')
+{
     $logFile = LOGS_PATH . '/' . date('Y-m-d') . '.log';
     $timestamp = date('Y-m-d H:i:s');
     $logEntry = "[$timestamp] [$type] $message" . PHP_EOL;
@@ -193,7 +200,8 @@ function log_message($message, $type = 'info') {
 /**
  * Get current page
  */
-function get_current_page() {
+function get_current_page()
+{
     $page = basename($_SERVER['PHP_SELF'], '.php');
     return $page ?: 'index';
 }
@@ -201,7 +209,8 @@ function get_current_page() {
 /**
  * Check if current page
  */
-function is_current_page($page) {
+function is_current_page($page)
+{
     return get_current_page() === $page;
 }
 
@@ -217,4 +226,3 @@ if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 
     session_start();
 }
 $_SESSION['LAST_ACTIVITY'] = time();
-?>
