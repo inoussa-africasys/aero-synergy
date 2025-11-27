@@ -27,7 +27,7 @@
     <?php include '../includes/header.php'; ?>
 
     <!-- Hero Section -->
-    <section class="relative h-[60vh] bg-gradient-to-br from-orange-600 via-red-500 to-orange-400 overflow-hidden">
+    <section class="relative h-[60vh] bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-400 overflow-hidden">
         <div class="absolute inset-0">
             <img src="../resource/images/pieces rechange (1).png" alt="Pièces de Rechange"
                 class="w-full h-full object-cover opacity-20">
