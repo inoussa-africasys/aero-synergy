@@ -69,16 +69,79 @@
 
     </section>
 
+    <!-- Partner Section -->
+    <section class="relative py-20 bg-gradient-to-br from-blue-50 via-cyan-50 to-blue-100 overflow-hidden">
+        <!-- Decorative Wave Top -->
+        <div class="absolute top-0 left-0 w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none"
+                class="w-full h-16 md:h-24">
+                <path fill="#f9fafb"
+                    d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z" />
+            </svg>
+        </div>
+
+        <div class="container mx-auto px-4 pt-16">
+            <div class="grid md:grid-cols-5 gap-12 items-center">
+                <!-- Left: Image with decorative shapes -->
+                <div class="md:col-span-2 relative slide-in-left">
+                    <!-- Large light blue oval -->
+                    <div
+                        class="absolute -top-10 -left-10 w-80 h-80 bg-blue-200 rounded-full opacity-30 blur-3xl animate-float">
+                    </div>
+                    <!-- Small purple/pink oval -->
+                    <div class="absolute -bottom-10 -right-10 w-60 h-60 bg-purple-200 rounded-full opacity-20 blur-2xl animate-float"
+                        style="animation-delay: 1s; animation-duration: 8s;">
+                    </div>
+
+                    <!-- Pilot image -->
+                    <div class="relative z-10">
+                        <img src="resource/images/pilot.jpg" alt="Professional Pilot"
+                            class="w-full h-auto rounded-[3rem] shadow-2xl object-cover">
+                    </div>
+                </div>
+
+                <!-- Right: Text Content -->
+                <div class="md:col-span-3 space-y-6 slide-in-right">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
+                        Votre partenaire privilégié dans les Airs et sur Terre
+                    </h2>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        Notre équipe professionnelle est toujours présente pour vous accompagner dans vos projets
+                        aéronautiques.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Services Section -->
     <section class="py-20 bg-gray-50">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Nos Services</h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-                    Des solutions complètes pour tous vos besoins aéronautiques
-                </p>
-            </div>
+            <div class="flex flex-row items-center mb-12 justify-between gap-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Explorez nos services</h2>
+                    <p class=" text-gray-600 max-w-2xl mx-auto">
+                        Des solutions complètes pour tous vos besoins aéronautiques
+                    </p>
+                </div>
+                <a href="services.php"
+   class="inline-flex items-center gap-2
+          bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-400 overflow-hidden
+          text-white px-7 py-3 rounded-xl font-semibold text-lg
+          shadow-lg hover:shadow-2xl transition-all duration-300
+          transform hover:-translate-y-1 hover:brightness-110">
+    Tous nos services
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+         stroke-width="2" stroke="currentColor" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round"
+              d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+    </svg>
+</a>
 
+
+
+
+            </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Achat & Vente -->
                 <div
@@ -89,9 +152,19 @@
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Achat & Vente</h3>
-                        <p class="text-gray-600 leading-relaxed">
+                        <p class="text-gray-600 leading-relaxed mb-4">
                             Nous vous accompagnons dans l'achat et la vente d'aéronefs avec expertise et transparence.
                         </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                            <span>En savoir plus</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                stroke="currentColor"
+                                class="w-5 h-5 group-hover/link:translate-x-1 transition-transform duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
@@ -107,6 +180,16 @@
                         <p class="text-gray-600 leading-relaxed">
                             Voyagez en toute liberté avec nos services d'affrètement privé personnalisés.
                         </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                            <span>En savoir plus</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                stroke="currentColor"
+                                class="w-5 h-5 group-hover/link:translate-x-1 transition-transform duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
@@ -122,6 +205,16 @@
                         <p class="text-gray-600 leading-relaxed">
                             Solutions pour événements, séminaires, transport gouvernemental et voyages de groupe.
                         </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                            <span>En savoir plus</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                stroke="currentColor"
+                                class="w-5 h-5 group-hover/link:translate-x-1 transition-transform duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
@@ -137,6 +230,16 @@
                         <p class="text-gray-600 leading-relaxed">
                             Transport de fret aérien reconnu pour son efficacité et sa réactivité.
                         </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                            <span>En savoir plus</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                stroke="currentColor"
+                                class="w-5 h-5 group-hover/link:translate-x-1 transition-transform duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
@@ -152,6 +255,16 @@
                         <p class="text-gray-600 leading-relaxed">
                             Services de location d'aéronefs flexibles adaptés à vos besoins spécifiques.
                         </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                            <span>En savoir plus</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                stroke="currentColor"
+                                class="w-5 h-5 group-hover/link:translate-x-1 transition-transform duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
@@ -167,6 +280,16 @@
                         <p class="text-gray-600 leading-relaxed">
                             Services d'évacuation médicale d'urgence disponibles 24/7.
                         </p>
+                        <a href="#"
+                            class="inline-flex items-center gap-2 text-blue-600 font-semibold hover:text-blue-700 transition-colors duration-300 group/link">
+                            <span>En savoir plus</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                                stroke="currentColor"
+                                class="w-5 h-5 group-hover/link:translate-x-1 transition-transform duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -180,35 +303,65 @@
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
                 <div
                     class="flex items-center justify-center p-6 grayscale hover:grayscale-0 transition-all duration-300">
-                    <img src="resource/images/image (6).webp" alt="Air Burkina" class="max-h-20 w-auto">
+                    <img src="resource/images/partenaires/ipag.png" alt="Air Burkina" class="max-h-30 w-auto">
                 </div>
                 <div
                     class="flex items-center justify-center p-6 grayscale hover:grayscale-0 transition-all duration-300">
-                    <img src="resource/images/image (7).webp" alt="Air Sarada" class="max-h-20 w-auto">
+                    <img src="resource/images/partenaires/airburkina.png" alt="Air Sarada" class="max-h-30 w-auto">
                 </div>
                 <div
                     class="flex items-center justify-center p-6 grayscale hover:grayscale-0 transition-all duration-300">
-                    <img src="resource/images/image (1).webp" alt="ANAC" class="max-h-20 w-auto">
+                    <img src="resource/images/partenaires/airsarada.png" alt="ANAC" class="max-h-30 w-auto">
                 </div>
                 <div
                     class="flex items-center justify-center p-6 grayscale hover:grayscale-0 transition-all duration-300">
-                    <img src="resource/images/image (2).webp" alt="IPAG" class="max-h-20 w-auto">
+                    <img src="resource/images/partenaires/anac.png" alt="IPAG" class="max-h-30 w-auto">
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-r from-blue-600 to-cyan-500">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Prêt à décoller?</h2>
-            <p class="text-xl text-white mb-8 max-w-2xl mx-auto">
-                Contactez-nous dès aujourd'hui pour discuter de vos besoins aéronautiques
-            </p>
-            <a href="contact.php"
-                class="inline-block bg-white text-blue-600 px-10 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1">
-                Contactez nous maintenant
-            </a>
+    <section class="relative py-8 bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-400 overflow-hidden">
+        <!-- Diagonal Shape -->
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-full">
+                <svg class="absolute top-0 left-0 w-full h-full" viewBox="0 0 1440 600" preserveAspectRatio="none">
+                    <path fill="#2b7a9e" d="M0,0 L1440,0 L900,600 L0,600 Z" opacity="0.3" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Left: Text Content -->
+                <div class="relative z-10">
+                    <h2 class="text-4xl md:text-5xl lg:text-6xl font-light text-white mb-10 leading-tight font-bold">
+                        Pret pour faire decoller votre projet
+                    </h2>
+                    <a href="contact.php"
+                        class="inline-flex items-center gap-3 bg-white text-[#2b7a9e] px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105">
+                        <span>Contactez nous</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                            stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Right: Image with organic shape -->
+                <div class="relative z-10 hidden lg:block">
+                    <div class="relative">
+                        <!-- Organic rounded shape container -->
+                        <div class="relative overflow-hidden  shadow-2xl rounded-tl-[14rem] rounded-r-[3rem] rounded-b-[3rem]"
+                            style="clip-path: ellipse(85% 90% at 50% 50%);">
+                            <img src="resource/images/CTA-Home-page-New.png" alt="Team working together"
+                                class="w-full h-auto object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 

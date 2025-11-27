@@ -93,19 +93,19 @@
                 </ul>
 
                 <!-- Emergency Medevac Badge -->
-                <div class="mt-6 bg-red-600 rounded-lg p-3 text-center">
+                <!-- <div class="mt-6 bg-red-600 rounded-lg p-3 text-center">
                     <p class="text-white text-xs font-semibold">
                         ⚕ URGENCES MEDEVAC
                     </p>
                     <p class="text-white text-sm font-bold mt-1">
                         24/7 DISPONIBLE
                     </p>
-                </div>
+                </div> -->
             </div>
         </div>
 
         <!-- Partners Section -->
-        <div class="border-t border-gray-800 pt-8 mb-8">
+       <!--  <div class="border-t border-gray-800 pt-8 mb-8">
             <h3 class="text-center text-lg font-semibold mb-6 text-white">Nos Partenaires</h3>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 items-center justify-items-center">
                 <div class="opacity-50 hover:opacity-100 transition-opacity">
@@ -121,7 +121,7 @@
                     <img src="resource/images/image (2).webp" alt="IPAG" class="h-12 w-auto brightness-0 invert">
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Social Media & Copyright -->
         <div class="border-t border-gray-800 pt-8">
