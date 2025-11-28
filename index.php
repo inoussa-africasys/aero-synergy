@@ -16,6 +16,19 @@
                         primary: '#1e90ff',
                         secondary: '#2c5aa0',
                         accent: '#00bcd4'
+                    },
+                    animation: {
+                        'loop-scroll': 'loop-scroll 50s linear infinite',
+                    },
+                    keyframes: {
+                        'loop-scroll': {
+                            from: {
+                                transform: 'translateX(0)'
+                            },
+                            to: {
+                                transform: 'translateX(-100%)'
+                            },
+                        }
                     }
                 }
             }
@@ -125,18 +138,18 @@
                     </p>
                 </div>
                 <a href="services.php"
-   class="inline-flex items-center gap-2
+                    class="inline-flex items-center gap-2
           bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-400 overflow-hidden
           text-white px-7 py-3 rounded-xl font-semibold text-lg
           shadow-lg hover:shadow-2xl transition-all duration-300
           transform hover:-translate-y-1 hover:brightness-110">
-    Tous nos services
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-         stroke-width="2" stroke="currentColor" class="w-5 h-5">
-        <path stroke-linecap="round" stroke-linejoin="round"
-              d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-    </svg>
-</a>
+                    Tous nos services
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                </a>
 
 
 
@@ -297,25 +310,37 @@
     </section>
 
     <!-- Partners Section -->
-    <section class="py-20 bg-white">
+    <section class="py-20 bg-white overflow-hidden">
         <div class="container mx-auto px-4">
             <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Nos Partenaires</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-                <div
-                    class="flex items-center justify-center p-6 grayscale hover:grayscale-0 transition-all duration-300">
-                    <img src="resource/images/partenaires/ipag.png" alt="Air Burkina" class="max-h-30 w-auto">
+
+            <?php
+            $dir = 'resource/images/partenaires';
+            $images = [];
+            if (is_dir($dir)) {
+                $files = scandir($dir);
+                $images = array_filter($files, function ($file) {
+                    return !in_array($file, ['.', '..', '.DS_Store']) && !str_starts_with($file, '.');
+                });
+            }
+            ?>
+
+            <div class="flex overflow-hidden space-x-16 group">
+                <!-- First set of images -->
+                <div class="flex space-x-16 animate-loop-scroll group-hover:paused">
+                    <?php foreach ($images as $image): ?>
+                        <div class="flex-shrink-0 w-48 h-32 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+                            <img src="<?php echo $dir . '/' . $image; ?>" alt="Partner" class="max-h-full max-w-full object-contain">
+                        </div>
+                    <?php endforeach; ?>
                 </div>
-                <div
-                    class="flex items-center justify-center p-6 grayscale hover:grayscale-0 transition-all duration-300">
-                    <img src="resource/images/partenaires/airburkina.png" alt="Air Sarada" class="max-h-30 w-auto">
-                </div>
-                <div
-                    class="flex items-center justify-center p-6 grayscale hover:grayscale-0 transition-all duration-300">
-                    <img src="resource/images/partenaires/airsarada.png" alt="ANAC" class="max-h-30 w-auto">
-                </div>
-                <div
-                    class="flex items-center justify-center p-6 grayscale hover:grayscale-0 transition-all duration-300">
-                    <img src="resource/images/partenaires/anac.png" alt="IPAG" class="max-h-30 w-auto">
+                <!-- Duplicate set for seamless scrolling -->
+                <div class="flex space-x-16 animate-loop-scroll group-hover:paused" aria-hidden="true">
+                    <?php foreach ($images as $image): ?>
+                        <div class="flex-shrink-0 w-48 h-32 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+                            <img src="<?php echo $dir . '/' . $image; ?>" alt="Partner" class="max-h-full max-w-full object-contain">
+                        </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
