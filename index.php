@@ -210,7 +210,7 @@
                 <div
                     class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
-                        <img src="resource/images/image (2).png" alt="Affrètement Commercial"
+                        <img src="resource/images/v2/voyageurs-de-groupe.webp" alt="Affrètement Commercial"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
@@ -235,7 +235,7 @@
                 <div
                     class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
-                        <img src="resource/images/image (3).png" alt="Affrètement Cargo"
+                        <img src="resource/images/image (2).png" alt="Affrètement Cargo"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
@@ -260,7 +260,7 @@
                 <div
                     class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
-                        <img src="resource/images/image (4).png" alt="Location"
+                        <img src="resource/images/v2/AVIONS REGIONAUX.jpg" alt="Location"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
@@ -285,7 +285,7 @@
                 <div
                     class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
-                        <img src="resource/images/image (5).png" alt="Evacuation Sanitaire"
+                        <img src="resource/images/v2/Evacuation sanitaire.png" alt="Evacuation Sanitaire"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">

@@ -29,7 +29,7 @@
     <!-- Hero Section -->
     <section class="relative h-[60vh] bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-400 overflow-hidden">
         <div class="absolute inset-0">
-            <img src="../resource/images/image (2).png" alt="Affrètement Commercial"
+            <img src="../resource/images/v2/voyageurs-de-groupe.webp" alt="Affrètement Commercial"
                 class="w-full h-full object-cover opacity-20">
         </div>
 

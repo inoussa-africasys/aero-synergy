@@ -29,7 +29,7 @@
     <!-- Hero Section -->
     <section class="relative h-[60vh] bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-400 overflow-hidden">
         <div class="absolute inset-0">
-            <img src="../resource/images/image (5).png" alt="Évacuation Sanitaire"
+            <img src="../resource/images/v2/Evacuation sanitaire.png" alt="Évacuation Sanitaire"
                 class="w-full h-full object-cover opacity-20">
         </div>
 
