@@ -70,7 +70,7 @@
                 <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Flexibilité totale</h3>
@@ -83,7 +83,7 @@
                 <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Confidentialité & confort</h3>
@@ -96,7 +96,7 @@
                 <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Accès exclusif</h3>
@@ -109,7 +109,7 @@
                 <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                         <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-4">Large flotte</h3>
@@ -126,49 +126,47 @@
         <div class="container mx-auto px-4">
             <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Notre flotte d'appareils</h2>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
                 <!-- Hélicoptère -->
-                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
-                        <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/>
-                        </svg>
+                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl overflow-hidden text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group">
+                    <div class="h-64 overflow-hidden">
+                        <img src="/resource/images/v2/Helicoptère.webp" alt="Hélicoptère" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <h3 class="text-lg font-bold text-gray-900 mb-2">Hélicoptère</h3>
-                    <p class="text-sm text-gray-600">Déplacement rapide en zone urbaine</p>
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Hélicoptère</h3>
+                        <p class="text-sm text-gray-600">Déplacement rapide en zone urbaine</p>
+                    </div>
                 </div>
 
                 <!-- Jet Privé -->
-                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
-                        <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
-                        </svg>
+                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl overflow-hidden text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group">
+                    <div class="h-64 overflow-hidden">
+                        <img src="/resource/images/v2/JET PRIVE (1).jpg" alt="Jet Privé" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <h3 class="text-lg font-bold text-gray-900 mb-2">Jet Privé</h3>
-                    <p class="text-sm text-gray-600">Vol d'affaires express</p>
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Jet Privé</h3>
+                        <p class="text-sm text-gray-600">Vol d'affaires express</p>
+                    </div>
                 </div>
-
                 <!-- Avion Corporate VIP -->
-                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
-                        <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-                        </svg>
+                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl overflow-hidden text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group">
+                    <div class="h-64 overflow-hidden">
+                        <img src="/resource/images/v2/corporate VIP.jpg" alt="Avion Corporate VIP" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <h3 class="text-lg font-bold text-gray-900 mb-2">Avion Corporate VIP</h3>
-                    <p class="text-sm text-gray-600">Voyage de groupe luxueux</p>
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Avion Corporate VIP</h3>
+                        <p class="text-sm text-gray-600">Voyage de groupe luxueux</p>
+                    </div>
                 </div>
-
                 <!-- Appareil Léger -->
-                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
-                        <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
-                        </svg>
+                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl overflow-hidden text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group">
+                    <div class="h-64 overflow-hidden">
+                        <img src="/resource/images/v2/Avion leger.avif" alt="Appareil Léger" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
-                    <h3 class="text-lg font-bold text-gray-900 mb-2">Appareil Léger</h3>
-                    <p class="text-sm text-gray-600">Destinations isolées</p>
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">Appareil Léger</h3>
+                        <p class="text-sm text-gray-600">Destinations isolées</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -180,7 +178,7 @@
             <div class="max-w-5xl mx-auto">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="relative">
-                        <img src="../resource/images/affretement (2).png" alt="Destinations"
+                        <img src="/resource/images/affretement (2).png" alt="Destinations"
                             class="w-full h-auto rounded-2xl shadow-2xl">
                     </div>
 
@@ -193,19 +191,19 @@
                         <div class="space-y-4">
                             <div class="flex items-center space-x-3">
                                 <svg class="w-6 h-6 text-green-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                                 <span class="text-gray-700">Vols vers toutes les destinations mondiales</span>
                             </div>
                             <div class="flex items-center space-x-3">
                                 <svg class="w-6 h-6 text-green-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                                 <span class="text-gray-700">Départ et arrivée dans des aéroports privés</span>
                             </div>
                             <div class="flex items-center space-x-3">
                                 <svg class="w-6 h-6 text-green-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>
                                 <span class="text-gray-700">Service personnalisé à bord</span>
                             </div>
