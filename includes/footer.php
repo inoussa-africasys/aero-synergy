@@ -11,9 +11,9 @@
                 <p class="text-gray-400 mb-4 leading-relaxed">
                     Votre partenaire aéronautique de confiance, spécialisé dans la vente, l'affrètement et l'évacuation sanitaire.
                 </p>
-                <p class="text-sm text-gray-500 mb-2">
+                <!-- <p class="text-sm text-gray-500 mb-2">
                     SIRET: 977 462 852 00012
-                </p>
+                </p> -->
             </div>
 
             <!-- Quick Links -->
@@ -21,7 +21,7 @@
                 <h3 class="text-lg font-semibold mb-4 text-white">Liens Rapides</h3>
                 <ul class="space-y-3">
                     <li>
-                        <a href="index.php" class="text-gray-400 hover:text-white transition-colors flex items-center space-x-2">
+                        <a href="/index.php" class="text-gray-400 hover:text-white transition-colors flex items-center space-x-2">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
@@ -29,7 +29,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="index.php#services" class="text-gray-400 hover:text-white transition-colors flex items-center space-x-2">
+                        <a href="/services.php" class="text-gray-400 hover:text-white transition-colors flex items-center space-x-2">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>
@@ -37,7 +37,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="contact.php" class="text-gray-400 hover:text-white transition-colors flex items-center space-x-2">
+                        <a href="/contact.php" class="text-gray-400 hover:text-white transition-colors flex items-center space-x-2">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                             </svg>

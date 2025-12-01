@@ -3,7 +3,7 @@
     <nav class="container mx-auto px-4">
         <div class="flex items-center justify-between h-20">
             <!-- Logo -->
-            <a href="index.php" class="flex items-center space-x-3 group">
+            <a href="/index.php" class="flex items-center space-x-3 group">
                 <img src="/images/LOGO/logo-white.png" alt="Aero Synergy Logo" class="h-12 w-auto transition-transform group-hover:scale-105">
                 <span class="text-xl font-bold text-gray-100 hidden sm:block">Aero Synergy</span>
             </a>
@@ -41,13 +41,13 @@
         <!-- Mobile Navigation -->
         <div id="mobileMenu" class="mobile-menu closed md:hidden">
             <div class="py-4 space-y-4 border-t border-gray-200">
-                <a href="index.php" class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors font-medium">
+                <a href="/index.php" class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors font-medium">
                     Accueil
                 </a>
-                <a href="index.php#services" class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors font-medium">
+                <a href="/services.php" class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors font-medium">
                     Services
                 </a>
-                <a href="contact.php" class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors font-medium">
+                <a href="/contact.php" class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg transition-colors font-medium">
                     Contact
                 </a>
                 <a href="tel:+33766355564" class="block px-4 py-2 bg-blue-50 text-blue-600 rounded-lg font-semibold">
