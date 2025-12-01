@@ -200,22 +200,38 @@
 
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
                 <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition-all duration-300">
-                    <div class="text-4xl mb-4">👤</div>
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                        </svg>
+                    </div>
                     <h3 class="font-bold text-gray-900">Patients critiques</h3>
                 </div>
 
                 <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition-all duration-300">
-                    <div class="text-4xl mb-4">🤰</div>
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                    </div>
                     <h3 class="font-bold text-gray-900">Femmes enceintes</h3>
                 </div>
 
                 <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition-all duration-300">
-                    <div class="text-4xl mb-4">👶</div>
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
                     <h3 class="font-bold text-gray-900">Néonatologie</h3>
                 </div>
 
                 <div class="bg-gray-50 rounded-xl p-6 text-center hover:shadow-lg transition-all duration-300">
-                    <div class="text-4xl mb-4">🧑‍🦼</div>
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                    </div>
                     <h3 class="font-bold text-gray-900">Patients à mobilité réduite</h3>
                 </div>
             </div>

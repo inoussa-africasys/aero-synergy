@@ -20,8 +20,8 @@
     RewriteRule ^(.*)$ $1.php [L]
 
     # Custom error pages (create these files if needed)
-    # ErrorDocument 404 /404.php
-    # ErrorDocument 500 /500.php
+    ErrorDocument 404 /404.php
+    ErrorDocument 500 /404.php
 </IfModule>
 
 # Security Headers
