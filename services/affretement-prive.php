@@ -29,7 +29,7 @@
     <!-- Hero Section -->
     <section class="relative h-[60vh] bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-400 overflow-hidden">
         <div class="absolute inset-0">
-            <img src="../resource/images/affretement (1).png" alt="Affrètement Privé"
+            <img src="../images/affretement (1).png" alt="Affrètement Privé"
                 class="w-full h-full object-cover opacity-20">
         </div>
 
@@ -130,7 +130,7 @@
                 <!-- Hélicoptère -->
                 <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl overflow-hidden text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group">
                     <div class="h-64 overflow-hidden">
-                        <img src="/resource/images/v2/Helicoptère.webp" alt="Hélicoptère" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="/images/v2/Helicoptère.webp" alt="Hélicoptère" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Hélicoptère</h3>
@@ -141,7 +141,7 @@
                 <!-- Jet Privé -->
                 <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl overflow-hidden text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group">
                     <div class="h-64 overflow-hidden">
-                        <img src="/resource/images/v2/JET PRIVE (1).jpg" alt="Jet Privé" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="/images/v2/JET PRIVE (1).jpg" alt="Jet Privé" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Jet Privé</h3>
@@ -151,7 +151,7 @@
                 <!-- Avion Corporate VIP -->
                 <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl overflow-hidden text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group">
                     <div class="h-64 overflow-hidden">
-                        <img src="/resource/images/v2/corporate VIP.jpg" alt="Avion Corporate VIP" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="/images/v2/corporate VIP.jpg" alt="Avion Corporate VIP" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Avion Corporate VIP</h3>
@@ -161,7 +161,7 @@
                 <!-- Appareil Léger -->
                 <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl overflow-hidden text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group">
                     <div class="h-64 overflow-hidden">
-                        <img src="/resource/images/v2/Avion leger.avif" alt="Appareil Léger" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="/images/v2/Avion leger.avif" alt="Appareil Léger" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <h3 class="text-lg font-bold text-gray-900 mb-2">Appareil Léger</h3>
@@ -178,7 +178,7 @@
             <div class="max-w-5xl mx-auto">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="relative">
-                        <img src="/resource/images/affretement (2).png" alt="Destinations"
+                        <img src="/images/affretement (2).png" alt="Destinations"
                             class="w-full h-auto rounded-2xl shadow-2xl">
                     </div>
 

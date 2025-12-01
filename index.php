@@ -48,7 +48,7 @@
                 </svg>
             </div>
 
-            <img src="resource/images/LOGO/forground.png" alt="Aero Synergy Logo"
+            <img src="images/LOGO/forground.png" alt="Aero Synergy Logo"
                 class="w-full h-full object-cover opacity-10">
         </div>
 
@@ -68,7 +68,7 @@
             </div>
 
             <div class="hidden lg:block absolute right-0 bottom-0 w-1/2 h-3/4">
-                <img src="resource/images/avion-1.png" alt="Aircraft"
+                <img src="images/avion-1.png" alt="Aircraft"
                     class="absolute bottom-0 right-0 w-full h-auto object-contain animate-float">
             </div>
             <div class="absolute bottom-0 left-0 w-full rotate-180">
@@ -108,7 +108,7 @@
 
                     <!-- Pilot image -->
                     <div class="relative z-10">
-                        <img src="resource/images/pilot.jpg" alt="Professional Pilot"
+                        <img src="images/pilot.jpg" alt="Professional Pilot"
                             class="w-full h-auto rounded-[3rem] shadow-2xl object-cover">
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                 <div
                     class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
-                        <img src="resource/images/achat vente (1).png" alt="Achat & Vente"
+                        <img src="images/achat vente (1).png" alt="Achat & Vente"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
@@ -185,7 +185,7 @@
                 <div
                     class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
-                        <img src="resource/images/affretement (1).png" alt="Affrètement Privé"
+                        <img src="images/affretement (1).png" alt="Affrètement Privé"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
@@ -210,7 +210,7 @@
                 <div
                     class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
-                        <img src="resource/images/v2/voyageurs-de-groupe.webp" alt="Affrètement Commercial"
+                        <img src="images/v2/voyageurs-de-groupe.webp" alt="Affrètement Commercial"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
@@ -235,7 +235,7 @@
                 <div
                     class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
-                        <img src="resource/images/image (2).png" alt="Affrètement Cargo"
+                        <img src="images/image (2).png" alt="Affrètement Cargo"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
@@ -260,7 +260,7 @@
                 <div
                     class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
-                        <img src="resource/images/v2/AVIONS REGIONAUX.jpg" alt="Location"
+                        <img src="images/v2/AVIONS REGIONAUX.jpg" alt="Location"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
@@ -285,7 +285,7 @@
                 <div
                     class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                     <div class="h-64 overflow-hidden">
-                        <img src="resource/images/v2/Evacuation sanitaire.png" alt="Evacuation Sanitaire"
+                        <img src="images/v2/Evacuation sanitaire.png" alt="Evacuation Sanitaire"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
@@ -315,7 +315,7 @@
             <h2 class="text-4xl font-bold text-center text-gray-900 mb-16">Nos Partenaires</h2>
 
             <?php
-            $dir = 'resource/images/partenaires';
+            $dir = 'images/partenaires';
             $images = [];
             if (is_dir($dir)) {
                 $files = scandir($dir);
@@ -381,7 +381,7 @@
                         <!-- Organic rounded shape container -->
                         <div class="relative overflow-hidden  shadow-2xl rounded-tl-[14rem] rounded-r-[3rem] rounded-b-[3rem]"
                             style="clip-path: ellipse(85% 90% at 50% 50%);">
-                            <img src="resource/images/CTA-Home-page-New.png" alt="Team working together"
+                            <img src="images/CTA-Home-page-New.png" alt="Team working together"
                                 class="w-full h-auto object-cover">
                         </div>
                     </div>

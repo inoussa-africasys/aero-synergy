@@ -72,7 +72,7 @@
                     <!-- Achat & Vente -->
                     <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                         <div class="h-64 overflow-hidden">
-                            <img src="resource/images/achat vente (1).png" alt="Achat & Vente"
+                            <img src="images/achat vente (1).png" alt="Achat & Vente"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
@@ -96,7 +96,7 @@
                     <!-- Affrètement Privé -->
                     <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                         <div class="h-64 overflow-hidden">
-                            <img src="resource/images/affretement (1).png" alt="Affrètement Privé"
+                            <img src="images/affretement (1).png" alt="Affrètement Privé"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
@@ -120,7 +120,7 @@
                     <!-- Affrètement Commercial -->
                     <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                         <div class="h-64 overflow-hidden">
-                            <img src="resource/images/v2/voyageurs-de-groupe.webp" alt="Affrètement Commercial"
+                            <img src="images/v2/voyageurs-de-groupe.webp" alt="Affrètement Commercial"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
@@ -144,7 +144,7 @@
                     <!-- Affrètement Cargo -->
                     <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                         <div class="h-64 overflow-hidden">
-                            <img src="resource/images/image (2).png" alt="Affrètement Cargo"
+                            <img src="images/image (2).png" alt="Affrètement Cargo"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
@@ -168,7 +168,7 @@
                     <!-- Location d'aéronefs -->
                     <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                         <div class="h-64 overflow-hidden">
-                            <img src="resource/images/v2/AVIONS REGIONAUX.jpg" alt="Location"
+                            <img src="images/v2/AVIONS REGIONAUX.jpg" alt="Location"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
@@ -192,7 +192,7 @@
                     <!-- Evacuation Sanitaire -->
                     <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                         <div class="h-64 overflow-hidden">
-                            <img src="resource/images/v2/Evacuation sanitaire.png" alt="Evacuation Sanitaire"
+                            <img src="images/v2/Evacuation sanitaire.png" alt="Evacuation Sanitaire"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
@@ -226,7 +226,7 @@
                     <!-- Gestion & Exploitation -->
                     <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                         <div class="h-64 overflow-hidden">
-                            <img src="resource/images/v2/GESTION D_exploitation.png" alt="Gestion & Exploitation"
+                            <img src="images/v2/GESTION D_exploitation.png" alt="Gestion & Exploitation"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
@@ -250,7 +250,7 @@
                     <!-- Pièces de Rechange -->
                     <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                         <div class="h-64 overflow-hidden">
-                            <img src="resource/images/pieces rechange (1).png" alt="Pièces de Rechange"
+                            <img src="images/pieces rechange (1).png" alt="Pièces de Rechange"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">
@@ -274,7 +274,7 @@
                     <!-- Support Client -->
                     <div class="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2 flex flex-col">
                         <div class="h-64 overflow-hidden">
-                            <img src="resource/images/v2/Support client aero.png" alt="Support Client"
+                            <img src="images/v2/Support client aero.png" alt="Support Client"
                                 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                         </div>
                         <div class="p-6 flex flex-col flex-grow">

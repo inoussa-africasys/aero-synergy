@@ -29,7 +29,7 @@
     <!-- Hero Section -->
     <section class="relative h-[60vh] bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-400 overflow-hidden">
         <div class="absolute inset-0">
-            <img src="../resource/images/v2/Support client aero.png" alt="Support Client"
+            <img src="../images/v2/Support client aero.png" alt="Support Client"
                 class="w-full h-full object-cover opacity-20">
         </div>
 
@@ -206,7 +206,7 @@
             <div class="max-w-5xl mx-auto">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="relative">
-                        <img src="../resource/images/image (11).png" alt="Support Client"
+                        <img src="../images/image (11).png" alt="Support Client"
                             class="w-full h-auto rounded-2xl shadow-2xl">
                     </div>
 

@@ -29,7 +29,7 @@
     <!-- Hero Section -->
     <section class="relative h-[60vh] bg-gradient-to-br from-blue-600 via-cyan-500 to-blue-400 overflow-hidden">
         <div class="absolute inset-0">
-            <img src="../resource/images/achat vente (1).png" alt="Achat & Vente"
+            <img src="../images/achat vente (1).png" alt="Achat & Vente"
                 class="w-full h-full object-cover opacity-20">
         </div>
 
@@ -203,7 +203,7 @@
                     </div>
 
                     <div class="relative">
-                        <img src="../resource/images/achat vente (2).png" alt="Acheter avec Aero-Synergy"
+                        <img src="../images/achat vente (2).png" alt="Acheter avec Aero-Synergy"
                             class="w-full h-auto rounded-2xl shadow-2xl">
                     </div>
                 </div>
@@ -225,7 +225,7 @@
 
                 <div class="grid md:grid-cols-2 gap-12 items-center mb-12">
                     <div class="relative order-2 md:order-1">
-                        <img src="../resource/images/achat vente (3).png" alt="Vendre avec Aero-Synergy"
+                        <img src="../images/achat vente (3).png" alt="Vendre avec Aero-Synergy"
                             class="w-full h-auto rounded-2xl shadow-2xl">
                     </div>
 

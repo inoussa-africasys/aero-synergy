@@ -5,7 +5,7 @@
             <!-- Company Info -->
             <div>
                 <div class="flex items-center space-x-3 mb-6">
-                    <img src="/resource/images/LOGO/logo-white.png" alt="Aero Synergy Logo" class="h-10 w-auto brightness-0 invert">
+                    <img src="/images/LOGO/logo-white.png" alt="Aero Synergy Logo" class="h-10 w-auto brightness-0 invert">
                     <span class="text-xl font-bold">Aero Synergy</span>
                 </div>
                 <p class="text-gray-400 mb-4 leading-relaxed">
@@ -109,16 +109,16 @@
             <h3 class="text-center text-lg font-semibold mb-6 text-white">Nos Partenaires</h3>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 items-center justify-items-center">
                 <div class="opacity-50 hover:opacity-100 transition-opacity">
-                    <img src="resource/images/image (6).webp" alt="Air Burkina" class="h-12 w-auto brightness-0 invert">
+                    <img src="images/image (6).webp" alt="Air Burkina" class="h-12 w-auto brightness-0 invert">
                 </div>
                 <div class="opacity-50 hover:opacity-100 transition-opacity">
-                    <img src="resource/images/image (7).webp" alt="Air Sarada" class="h-12 w-auto brightness-0 invert">
+                    <img src="images/image (7).webp" alt="Air Sarada" class="h-12 w-auto brightness-0 invert">
                 </div>
                 <div class="opacity-50 hover:opacity-100 transition-opacity">
-                    <img src="resource/images/image (1).webp" alt="ANAC" class="h-12 w-auto brightness-0 invert">
+                    <img src="images/image (1).webp" alt="ANAC" class="h-12 w-auto brightness-0 invert">
                 </div>
                 <div class="opacity-50 hover:opacity-100 transition-opacity">
-                    <img src="resource/images/image (2).webp" alt="IPAG" class="h-12 w-auto brightness-0 invert">
+                    <img src="images/image (2).webp" alt="IPAG" class="h-12 w-auto brightness-0 invert">
                 </div>
             </div>
         </div> -->

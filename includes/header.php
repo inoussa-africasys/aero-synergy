@@ -4,7 +4,7 @@
         <div class="flex items-center justify-between h-20">
             <!-- Logo -->
             <a href="index.php" class="flex items-center space-x-3 group">
-                <img src="/resource/images/LOGO/logo-white.png" alt="Aero Synergy Logo" class="h-12 w-auto transition-transform group-hover:scale-105">
+                <img src="/images/LOGO/logo-white.png" alt="Aero Synergy Logo" class="h-12 w-auto transition-transform group-hover:scale-105">
                 <span class="text-xl font-bold text-gray-100 hidden sm:block">Aero Synergy</span>
             </a>
 
