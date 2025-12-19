@@ -14,7 +14,8 @@ date_default_timezone_set('Europe/Paris');
 // Site Configuration
 define('SITE_NAME', 'Aero Synergy');
 define('SITE_URL', 'https://aero-synergy.com');
-define('SITE_EMAIL', 'contact@aero-synergy.com');
+//define('SITE_EMAIL', 'contact@aero-synergy.com');
+define('SITE_EMAIL', 'dominiquehilton75@gmail.com');
 define('SITE_PHONE', '+33 7 66 35 55 64');
 define('SITE_ADDRESS', '200 rue de la Croix Nivert, 75015 Paris, France');
 define('SIRET', '977 462 852 00012');
@@ -27,11 +28,18 @@ define('INSTAGRAM_URL', '#');
 
 // Email Configuration
 // Email Configuration (MailDev)
-define('SMTP_HOST', '127.0.0.1');
+/* define('SMTP_HOST', '127.0.0.1');
 define('SMTP_PORT', 1025);
 define('SMTP_USERNAME', '');
 define('SMTP_PASSWORD', '');
-define('SMTP_ENCRYPTION', ''); // No encryption for MailDev
+define('SMTP_ENCRYPTION', ''); // No encryption for MailDev */
+
+define('SMTP_HOST', 'ssl0.ovh.net');
+define('SMTP_PORT', 587);
+define('SMTP_USERNAME', 'apps-notifications@cloudlyyours.com');
+define('SMTP_PASSWORD', '$q\'6L=}ma}fZVtw');
+define('SMTP_ENCRYPTION', 'tls');
+
 
 // Database Configuration (if needed in future)
 define('DB_HOST', 'localhost');

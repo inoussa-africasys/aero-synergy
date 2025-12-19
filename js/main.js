@@ -250,8 +250,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Performance: Preload critical images
     const criticalImages = [
-        'resource/images/LOGO.png',
-        'resource/images/image (1).png'
+        'images/LOGO/logo-white.png',
+       
     ];
 
     criticalImages.forEach(src => {
@@ -263,9 +263,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Console welcome message
-    console.log('%cAero Synergy', 'font-size: 24px; font-weight: bold; color: #1e90ff;');
-    console.log('%cVotre partenaire aéronautique de confiance', 'font-size: 14px; color: #666;');
-    console.log('%c🚀 Site développé avec PHP, JavaScript & Tailwind CSS', 'font-size: 12px; color: #00bcd4;');
 
 });
 
